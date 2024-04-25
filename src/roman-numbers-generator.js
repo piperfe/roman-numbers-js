@@ -1,6 +1,6 @@
 
-function sum(a, b) {
-    return a + b;
+function toRoman(decimal) {
+    if(decimal === 1) return 'I';
 }
 
-module.exports = sum;
+module.exports = toRoman;
